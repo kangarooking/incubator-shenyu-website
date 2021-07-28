@@ -24,7 +24,7 @@ description: monitor插件
 * 在 `monitor` 插件中新增以下配置：
 
 ```yaml
-{"metricsName":"prometheus","host":"localhost","port":"9191","async":"true"}
+{"metricsName":"prometheus","host":"0.0.0.0","port":"9191","async":"true"}
 
 # port : 为暴露给 prometheus服务来拉取的端口
 # host : 不填写则为 ShenYu 网关的host.
